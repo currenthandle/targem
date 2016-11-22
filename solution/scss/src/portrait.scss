@@ -3,9 +3,17 @@ $portrait-bp: 683px;
     body {
         color: blue;
         .banner-container{
+            text-align: center;
             .banner {
-                height: 100%;
+                width: 150vw;
             }
+        }
+        .header {
+            margin: 0 30px 0 30px;
+        }
+        .state-finder {
+            margin: 0 30px 0 30px;
+            padding: 20px;
         }
     }
 }
