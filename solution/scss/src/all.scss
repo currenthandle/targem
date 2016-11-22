@@ -2,7 +2,7 @@ body {
     a{
         text-decoration: none;
     }
-    background-image: url('img/tan.jpg');
+    //background-image: url('img/tan.jpg');
     background-color: #e3e3e3;
     font-family: Lato;
 
@@ -38,8 +38,10 @@ body {
         background-color: #efefef;
         border-radius: 4px;
         box-shadow: 0 2px 2px #cccccc;
-        margin-bottom: 53px !important;
-        margin-top: 22px !important;
+        //margin-bottom: 53px !important;
+        //margin-top: 22px !important;
+        margin: 0 30px 0 30px;
+        padding: 20px;
         h2 {
             font-size: 20px;
             margin: 0;
@@ -48,6 +50,26 @@ body {
         p {
             font-size: 12px;
             color: #0b3461;
+        }
+        select {
+            width: 96%;
+            box-sizing: border-box;
+            margin: 0;
+            height: 32px;
+            border: none;
+            box-shadow: 0 -1px 1px #d4d4d4;
+        }
+        button {
+            width: 30px;
+            //float: right;
+            margin: 0;
+            margin-left: -4px;
+            box-shadow: 0 -1px 1px #d4d4d4;
+            box-sizing: border-box;
+            background-color: #fff;
+            border: none;
+            border-left: 1px dotted #e7e7e7;
+            height: 32px;
         }
     }
     .tile {
