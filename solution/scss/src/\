@@ -38,12 +38,10 @@ body {
         margin-bottom: 53px !important;
         margin-top: 22px !important;
         h2 {
-            font-size: 20px;
             margin: 0;
             color: #57728f;
         }
         p {
-            font-size: 12px;
             color: #0b3461;
         }
     }
@@ -67,30 +65,11 @@ body {
             box-shadow: 0 1px 1px #cdcdcd;
         }
     }
-    .in-gravida {
-        padding-bottom: 50px !important;
-        h3 {
-            margin-bottom: 2px !important;
-        }
-        p {
-            margin-top: 3px !important;
-        }
-        a {
-            margin-bottom: 20px;
-            border-radius: 3px;
-            img {
-                height: auto;
-                width: auto;
-                float: right; 
-                margin-top: 6px;
-            }
-        }
-    }
     .products {
         h2 {
             display: inline-block;
-            margin-bottom: 15px !important;
             font-size: 30px;
+            margin-bottom: 30px !important;
         }
         select {
             color: #002b5a;
@@ -112,35 +91,21 @@ body {
                 margin-bottom: 20px;
                 background-color: #fff;
                 padding: 15px;
-                padding-bottom: 11px;
                 .title {
                     color: #002b5a;
                     font-size: 17px;
-                    margin-bottom: 10px;
-                    display: inline-block;
+                    margin-bottom: 6px;
                 }
                 .starting-at {
                     color: #4987ca;
                     font-size: 13px;
-                    margin-bottom: 10px;
-                    display: inline-block;
                 }
                 .description {
                     color: #666666;
                     font-size: 13px;
-                    margin-bottom: 20px;
-                    display: inline-block;
                 }
                 a {  
-                    color: #113965;
                     box-shadow: none; 
-                    padding: 0;
-                    margin-top: 14px;
-                    img {
-                        height: auto;
-                        width: auto;
-                        margin-left: 4px;
-                    }
                 }
                 img {
                     width: 100%;
