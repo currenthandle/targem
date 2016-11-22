@@ -1,0 +1,12 @@
+$portrait-bp: 683px; 
+@media (max-width: $portrait-bp) {
+    body {
+        color: blue;
+        .banner-container{
+            .banner {
+                height: 100%;
+            }
+        }
+    }
+}
+
