@@ -15,6 +15,15 @@ $portrait-bp: 683px;
             margin: 0 30px 0 30px;
             padding: 20px;
         }
+        .main-content {
+            margin: 0 16px 0 16px;
+            .tile {
+                background-color: #f3f3f3;
+                padding: 24px 18px 0 18px;
+                h2 { margin: 0; }
+                margin-top: 3px;
+            }
+        }
     }
 }
 

@@ -43,4 +43,19 @@ body {
             color: #0b3461;
         }
     }
+    .tile {
+        h3 {
+            color: #002b5a;
+        }
+        p {
+            color: #787878;
+        }    
+        a {
+            background-color: #ffffff;
+            width: 100%;
+            display: block;
+            padding: 12px;
+            box-sizing: border-box;
+        }
+    }
 }
