@@ -1,6 +1,9 @@
 @import "breakpoints";
 @media (min-width: $portrait-bp) and (max-width: $landscape-bp) {
     body {
+        .header {
+            padding: 0 33px 0 33px;
+        }
         .state-finder {
             .select-container {
                 select {
