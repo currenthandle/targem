@@ -1,5 +1,7 @@
-var products = require('./products');
+let products = require('./products');
 
-products.forEach(function(product) {
-    console.log(product);
-})
+console.log(products);
+
+for (i in products) {
+    console.log(products[i]);
+}
