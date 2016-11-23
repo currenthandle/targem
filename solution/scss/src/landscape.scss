@@ -1,6 +1,48 @@
-$landscape-bp: 683px; 
-@media (max-width: $landscape-bp) {
+@import "breakpoints";
+@media (min-width: $portrait-bp) and (max-width: $landscape-bp) {
     body {
+        .state-finder {
+            .select-container {
+                select {
+                    width: 90% !important;
+                }
+            }
+        }
+        .tile {
+            padding: 48px 40px 48px 40px;
+            margin: 0 15px 3px 15px;
+        }
+        .in-gravida {
+            h2 {
+                margin-top: 0;
+                margin-bottom: 44px;
+            }
+            a {
+                width: 122px;
+                margin-top: 40px;
+            }
+        }
+        .products {
+            h2 {
+                margin-top: 0;
+            }
+            ul {
+                //text-align: center;
+                li {
+                    box-sizing: border-box;
+                    width: 48%;
+                    display: inline-block;
+                }
+                .p1 , .p3 {
+                    //margin-right: 3%;
+                }
+                .p2, .p4 {
+                    //margin-left: 3%;
+                    float: right;
+                }
+
+            }
+        }
     }
 }
 
