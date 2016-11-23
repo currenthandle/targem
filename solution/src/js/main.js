@@ -11,11 +11,19 @@ function render(product) {
 
 let tree = render(products[1]);
 let rootNode = createElement(tree);
-document.body.appendChild(rootNode);
+document.querySelector('.main-content').appendChild(rootNode);
 
 function update(id) {
-	let newTree = render(products[i]);
+	let newTree = render(products[id]);
 	let patches = diff(tree, newTree);
 	rootNode = patch(rootNode, patches);
 	tree = newTree;
+}
+
+let lis = document.querySelector('.products').querySelectorAll('li');
+console.log(lis.length);
+for (let i = 0; i < lis.length; i++) {
+    console.log('i',i);
+    console.log(lis[i]);
+    lis[i].addEventListener('click', (e) => update(i+1));
 }
