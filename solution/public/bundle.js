@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module '/home/ubuntu/targem/solution/public/js/main.js' from '/home/ubuntu/targem/solution'");

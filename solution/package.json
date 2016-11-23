@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass scss/bundle.scss -o public/css",
-    "css-w": "node-sass scss/bundle.scss -w -o public/css",
-    "dev": "shell-exec 'npm run css-w' 'nodemon server.js'",
-    "start" : "npm run css && node server.js"
+    "css": "node-sass src/scss/bundle.scss -o public/css",
+    "css-w": "node-sass src/scss/bundle.scss -w -o public/css",
+	"js": "browserify public/js/main.js > public/bundle.js",
+    "js-w": "watchify public/js/main.js -o public/bundle.js -dv",
+    "dev": "shell-exec 'npm run css-w' 'npm run js-w' 'nodemon server.js'",
+    "start": "npm run css && npm run js && node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,8 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "node-sass": "^3.13.0"
+    "browserify": "^13.1.1",
+    "node-sass": "^3.13.0",
+    "watchify": "^3.7.0"
   }
 }
