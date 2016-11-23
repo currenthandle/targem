@@ -1,0 +1,82 @@
+@import "breakpoints";
+@media (min-width: $landscape-bp) {
+    body {
+        .all {
+            padding: 0 15% 0 15%;
+        }
+        .header {
+            padding: 0 33px 0 33px;
+        }
+        .state-finder {
+            .select-container {
+                select {
+                    width: 90% !important;
+                }
+            }
+        }
+        .tile {
+            padding: 48px 40px 48px 40px;
+            margin: 0 15px 3px 15px;
+        }
+        .in-gravida {
+            .item-container {
+                text-align: center;
+            }
+            .item {
+                vertical-align: top;
+                height: 180px;
+                margin-bottom: 20px;
+                text-align: left;
+                display: inline-block;
+                width: 30%;
+                a {
+                    //  vertical-align: bottom;
+                    //position: relative;
+                    margin-top: 20px;
+                    bottom: 0;
+
+                }
+                h3 {
+                    margin-top: 0;
+                }
+            }
+            .one , .four {
+                float: left; 
+            }
+            .three , .six {
+                float: right;
+            }
+            h2 {
+                margin-top: 0;
+                margin-bottom: 44px;
+            }
+            a {
+                width: 122px;
+                margin-top: 40px;
+            }
+        }
+        .products {
+            h2 {
+                margin-top: 0;
+            }
+            ul {
+                text-align: center;
+                li {
+                    text-align: left;
+                    box-sizing: border-box;
+                    width: 24%;
+                    display: inline-block;
+                }
+                .p1 , .p3 {
+                    //margin-right: 3%;
+                }
+                .p2, .p4 {
+                    //margin-left: 3%;
+                    //float: right;
+                }
+
+            }
+        }
+    }
+}
+
