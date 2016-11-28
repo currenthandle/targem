@@ -4,5 +4,5 @@ node_modules
 npm-debug.log
 
 # Production
-solution/public/css
-solution/public/js
+solution/public/css/*
+solution/public/js/*
