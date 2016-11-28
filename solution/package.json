@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "node-sass src/scss/bundle.scss -o public/css",
     "css-w": "node-sass src/scss/bundle.scss -w -o public/css",
-    "js": "browserify src/js/main.js -o public/js/bundle.js -t [ babelify --presets [ es2015 ] ]",
+    "js": "mkdir public/js && browserify src/js/main.js -o public/js/bundle.js -t [ babelify --presets [ es2015 ] ]",
     "js-w": "watchify src/js/main.js -o public/js/bundle.js -dv -t [ babelify --presets [ es2015 ] ]",
     "dev": "shell-exec 'npm run css-w' 'npm run js-w' 'nodemon server.js'",
     "start": "npm run css && npm run js && node server.js"
